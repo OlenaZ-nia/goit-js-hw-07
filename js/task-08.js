@@ -33,9 +33,6 @@ destroyBtn.addEventListener('click', () => {
     destroyBoxes();
     document.querySelector("#controls input").value = "";
 });
-// destroyBtn.onclick = function () {
-//     document.querySelector("#controls input").value = "";
-// };
 
 function getRandom(min, max) {
   min = Math.ceil(min);
